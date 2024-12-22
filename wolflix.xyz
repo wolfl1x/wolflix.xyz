@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links</title>
+    <!-- Connecting Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic style */
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif; /* Font position */
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        /* Logo (GIF) */
+        .logo img {
+            width: 267px; /* Width */
+            height: 150px; /* Heigh */
+            object-fit: contain; /* Save proportions within the specified size */
+            margin-bottom: 10px;
+        }
+
+        /* Headline */
+        h1 {
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        /* Social Media Links */
+        .social-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .social-links li {
+            margin: 15px 0;
+            font-size: 40px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+
+        .social-links img {
+            width: 44px; /* Width icons */
+            height: 33px; /* Height icons */
+            margin-right: -10px; /* Indent to the right of the icon */
+            object-fit: contain; /* Save image proportions */
+            border-radius: 50%; /* Round off icons if needed */
+            transition: transform 0.3s ease; /* Adding smooth animation */
+        }
+
+        .social-links a:hover {
+            color: gray;
+        }
+
+        /* Footer */
+        footer {
+            position: fixed; /* Pins the element */
+            bottom: 10px; /* Distance from the bottom of the window */
+            left: 0;
+            width: 100%; /* Stretches to full screen width */
+            text-align: center; /* Centers the text */
+            font-size: 14px; /* Font size */
+            opacity: 0.7; /* Transparency */
+            color: white; /* Color text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Logo with GIF -->
+            <div class="logo">
+                <img src="images/zzz-3D.gif" alt="Logo GIF">
+            </div>
+            <h1>SOCIALS</h1>
+        </header>
+        <main>
+            <ul class="social-links">
+                <li>
+                    <img src="icons/youtube.ico" alt="YouTube Icon">
+                    <a href="https://youtube.com" target="_blank">YouTube</a>
+                </li>
+                <li>
+                    <img src="icons/twitter.ico" alt="Twitter Icon">
+                    <a href="https://x.com/Wolfl1x" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <img src="icons/discord.ico" alt="Discord Icon">
+                    <a href="https://discord.com" target="_blank">Discord</a>
+                </li>
+                <li>
+                    <img src="icons/steam.ico" alt="Steam Icon">
+                    <a href="https://steamcommunity.com/id/wolfl1x/" target="_blank">Steam</a>
+                </li>
+                <li>
+                    <img src="icons/spotify.ico" alt="Spotify Icon">
+                    <a href="https://open.spotify.com/user/40s63esji1vk1irvgi7sj2ili?si=7256478f2c174109" target="_blank">Spotify</a>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p>Wolflix.xyz 2024 ©</p>
+        </footer>
+    </div>
+</body>
+</html>
