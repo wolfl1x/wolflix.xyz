@@ -39,7 +39,6 @@
             letter-spacing: 2px;
             text-transform: uppercase;
             margin: 0;
-            border-bottom: 2px solid white;
             padding-top: 10px;
             pointer-events: none;
         }
@@ -47,6 +46,8 @@
         h1 a {
               text-decoration: underline;
               color: white;
+              border-bottom: 2px solid white;
+              padding-bottom: 5px;
               cursor: default;
         }
 
