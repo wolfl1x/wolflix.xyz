@@ -38,8 +38,9 @@
             font-size: 14px;
             letter-spacing: 2px;
             text-transform: uppercase;
+            text-decoration: none;
             margin: 0;
-            border-bottom: 2px;
+            border-bottom: 2px solid white;
             padding-top: 10px;
             pointer-events: none;
             cursor: default;
