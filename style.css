@@ -38,13 +38,16 @@
             font-size: 14px;
             letter-spacing: 2px;
             text-transform: uppercase;
-            text-decoration: underline;
-            color: white;
             margin: 0;
             border-bottom: 2px solid white;
             padding-top: 10px;
             pointer-events: none;
-            cursor: default;
+        }
+
+        h1 a {
+              text-decoration: underline;
+              color: white;
+              cursor: default;
         }
 
         /* Social Media Links */
