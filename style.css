@@ -44,10 +44,11 @@
         }
 
         h1 a {
-              text-decoration: underline;
+              marring-bottom: 50px
               color: white;
               border-bottom: 2px solid white;
-              padding-bottom: 2px;
+              padding-bottom: 10px;
+              display: inline-block;
               cursor: default;
         }
 
