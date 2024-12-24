@@ -40,16 +40,11 @@
             text-transform: uppercase;
             margin: 0;
             padding-top: 2px;
+            padding-bottom: 10px;
             pointer-events: none;
-        }
-
-        h1 a {
-              display: inline-block;
-              marring-bottom: 50px;
-              color: white;
-              border-bottom: 2px solid white;
-              padding-bottom: 10px;
-              cursor: default;
+            border-bottom: 2px solid white;
+            display: inline-block;
+            cursor: default;
         }
 
         /* Social Media Links */
