@@ -38,9 +38,10 @@
             font-size: 14px;
             letter-spacing: 2px;
             text-transform: uppercase;
-            text-decoration: underline
+            text-decoration: underline;
+            color: white;
             margin: 0;
-            border-bottom: 2px solod white;
+            border-bottom: 2px solid white;
             padding-bottom: 10px;
             display: inline-block;
             pointer-events: none;
