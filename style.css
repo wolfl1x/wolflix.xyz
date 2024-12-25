@@ -40,7 +40,7 @@
             text-transform: uppercase;
             margin: 0;
             padding-top: 2px;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
             pointer-events: none;
             border-bottom: 2px solid white;
             display: inline-block;
